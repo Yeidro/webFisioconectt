@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Importa y aplica las configuraciones de base, componentes y utilidades de Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Establece algunos estilos globales */
+* {
+    font-family: "Poppins", sans-serif;
+    /* Utiliza la fuente Poppins como la fuente predeterminada */
+    outline: none;
+    /* Elimina los contornos predeterminados al enfocar los elementos */
+    padding: 0;
+    /* Elimina el relleno predeterminado en todos los elementos */
+    margin: 0;
+    /* Elimina los márgenes predeterminados en todos los elementos */
+}
